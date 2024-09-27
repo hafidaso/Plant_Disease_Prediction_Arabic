@@ -24,3 +24,44 @@ To see the application in action, follow the instructions below to run it locall
 To run the Streamlit application, use the following command:
 ```bash
 streamlit run main.py
+
+
+
+
+## Plant Diseases Covered
+
+The model can identify and describe the following diseases:
+
+- **Apple**: Apple Scab, Black Rot, Cedar Apple Rust, Healthy
+- **Blueberry**: Healthy
+- **Cherry**: Powdery Mildew, Healthy
+- **Corn**: Cercospora Leaf Spot, Common Rust, Northern Leaf Blight, Healthy
+- **Grape**: Black Rot, Esca (Black Measles), Leaf Blight, Healthy
+- **Orange**: Huanglongbing (Citrus Greening)
+- **Peach**: Bacterial Spot, Healthy
+- **Pepper**: Bacterial Spot, Healthy
+- **Potato**: Early Blight, Late Blight, Healthy
+- **Strawberry**: Leaf Scorch, Healthy
+- **Tomato**: Bacterial Spot, Early Blight
+
+
+## Model Information
+
+The model is a **convolutional neural network (CNN)** trained using **TensorFlow** and **Keras**. It processes images resized to **128x128 pixels** and outputs a predicted disease along with the confidence level.
+
+## Future Improvements
+
+- **Expand disease coverage**: Add support for more plants and diseases.
+- **Optimize model**: Improve the accuracy and efficiency of the TensorFlow model.
+- **UI Enhancements**: Enhance the user interface for a better experience.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or suggestions, feel free to contact the project maintainer:
+
+**Name**: Hafida Belayd  
+**Email**: hafidabelaidagnaoui@gmail.com
