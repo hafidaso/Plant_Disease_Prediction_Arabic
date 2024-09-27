@@ -22,10 +22,8 @@ To see the application in action, follow the instructions below to run it locall
 ### Running the Application
 
 To run the Streamlit application, use the following command:
-```bash
-streamlit run main.py
-
-
+    ```bash
+    streamlit run main.py
 
 
 ## Plant Diseases Covered
